@@ -12,12 +12,27 @@
     <h2>Student Form</h2>
 
     <div class="container">
-        <input type="text" id="name" placeholder="Enter Your Name">
-        <input type="email" id="email" placeholder="Enter Your Email">
-        <input type="number" id="id" placeholder="Enter Your ID">
+        <input type="text" id="name" class="input" placeholder="Enter Your Name">
+        <input type="email" id="email" class="input" placeholder="Enter Your Email">
+        <input type="number" id="id" class="input" placeholder="Enter Your ID">
+        
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label>
+        
+        <br><br>
+        
+        <input type="checkbox" id="WebDevelopment" name="WebDevelopment" value="WebDevelopment">
+        <label for="check1">Web Development</label>
+        <input type="checkbox" id="GraphicDesign" name="GraphicDesign" value="GraphicDesign">
+        <label for="check1">Graphic Design</label>
+        <input type="checkbox" id="DigitalMarketing" name="DigitalMarketing" value="DigitalMarketing">
+        <label for="check1">Digital Marketing</label>
+        
         <button id="btn">Add</button>
     </div>
-
+    
     <div id="table">
 
     </div>
