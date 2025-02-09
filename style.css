@@ -16,10 +16,10 @@ h2 {
 .container {
     text-align: center;
     width: 100%;
-    max-width: 36.45rem; /* Matches input width */
+    max-width: 36.45rem;
 }
 
-input {
+.input {
     display: block;
     background-color: black;
     color: white;
